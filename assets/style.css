@@ -1,0 +1,30 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.hero {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.hero__inner {
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin: 0 auto;
+    display: flex;
+    gap: 100px;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.hero__inner img {
+    width: 450px;
+    border-radius: 30px;
+}
+
+.hero-right__text {
+    margin-top: 10px;
+}
